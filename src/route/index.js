@@ -19,7 +19,7 @@ class RouteIndex extends Component{
 
     syncLoad (self){
 
-        debugger
+        
     };
 
 }

@@ -8,7 +8,7 @@ class RouteLoad extends Component{
     render() {
         let path = this.props.location.pathname
         console.log('路由加载--',path)
-        debugger
+        
         let ViewComponent  = require('@/pages'+path).default;
         return <ViewComponent  />
     }
