@@ -1,9 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 //动态路由
-import DynamicRoute from './route';
+import DynamicRoute from "./route";
 
 function App() {
   return (
@@ -14,14 +14,12 @@ function App() {
           Edit <code>src/App.js</code> and save to reload....
         </p>
       </header>
+      <a href="/">Home</a> <br />
+      <a href="/user/login?val=123&ret=bingqing">login</a> <br />
+      <a href="/user/forget-pwd?val=4567&ret=bingqing">forget-pwd</a> <br />
+      <a href="/my/my">My</a> <br />
 
-        <a href="/">Home</a> <br/>
-        <a href="/user/login?val=123&ret=bingqing">login</a> <br/>
-        <a href="/user/forget-pwd?val=4567&ret=bingqing">forget-pwd</a> <br/>
-
-      <DynamicRoute>
-      </DynamicRoute>
-
+      <DynamicRoute></DynamicRoute>
     </div>
   );
 }
