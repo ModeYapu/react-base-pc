@@ -15,9 +15,9 @@ function App() {
         </p>
       </header>
 
-        <a href="#/">Home</a> <br/>
-        <a href="#/user/login?val=123&ret=bingqing">login</a> <br/>
-        <a href="#/user/forget-pwd?val=4567&ret=bingqing">forget-pwd</a> <br/>
+        <a href="/">Home</a> <br/>
+        <a href="/user/login?val=123&ret=bingqing">login</a> <br/>
+        <a href="/user/forget-pwd?val=4567&ret=bingqing">forget-pwd</a> <br/>
 
       <DynamicRoute>
       </DynamicRoute>
