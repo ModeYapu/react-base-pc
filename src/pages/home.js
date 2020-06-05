@@ -13,10 +13,22 @@ class Home extends Component {
           <Form.Item>
             <Button>Default Button</Button>
           </Form.Item>
-          {/* <Button type="primary">Primary Button</Button> */}
         </div>
       </>
     );
   }
 }
+console.log(<Home />);
+console.log(
+  <Home>
+    <div>这是Home组件</div>
+    <div>
+      <ul>
+        <li>新的一条</li>
+        <li>新的一条</li>
+        <li>新的一条</li>
+      </ul>
+    </div>
+  </Home>
+);
 export default Home;
